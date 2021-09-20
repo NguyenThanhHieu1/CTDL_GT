@@ -24,9 +24,14 @@ public class ChuongTrinhLab2Bai4 {
     }
 
     static void giaiPTBacI(){
-         System.out.println("Trien khai code giai phuong trinh bac 1....");
-    }
+         float a= 0, b = 0;
 
+         if(a == 0){
+             if(b == 0){
+                 System.out.println("PT vo nghiem");
+             }
+         }
+        }
     static void giaiPTBacII(){
         System.out.println("Trien khai code giai phuong trinh bac 2....");
    }
