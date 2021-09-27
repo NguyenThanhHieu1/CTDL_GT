@@ -21,6 +21,8 @@ public class CTMinhHoaMang {
 
         System.out.println("Mang diem mon hoc: " + Arrays.toString(diemMonHoc));
 
+        System.out.println("So phan tu cua mang diem mon hoc: " + diemMonHoc.length);
+
         //Cach 2
         String dsTenSinhVien[] = {"Nguyen","Thanh","Hieu"};
     }
