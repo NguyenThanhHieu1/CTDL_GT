@@ -25,6 +25,20 @@ public class CTMinhHoaMang {
 
         //Cach 2
         String dsTenSinhVien[] = {"Nguyen","Thanh","Hieu"};
+
+        //dung vong lap de duyet mang
+        System.out.println("=====Duyet Mang======");
+
+        for(int i = 0; i < diemMonHoc.length; i++){
+            System.out.println(diemMonHoc[i]);
+         }
+
+        System.out.println("=====For - Each=====");
+         //For-Each
+        for(double diem : diemMonHoc){
+            System.out.println(diem);
+        }
+
     }
     
 }
