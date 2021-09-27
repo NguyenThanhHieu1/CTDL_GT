@@ -39,6 +39,33 @@ public class CTMinhHoaMang {
             System.out.println(diem);
         }
 
+        //Mang co kieu du lieu tham chieu doi tuong 
+        Dog[] danhSachDog = new Dog[7];
+
+        Dog dog0 = new Dog(10, "Den", "Fido");
+        Dog dog1 = new Dog(7, "Vang", "La la");
+        Dog dog2 = new Dog(25, "Den trang", "Lulu");
+        Dog dog3 = new Dog(26, "Vang Den", "Lili");
+        Dog dog4 = new Dog(30, "Trang Vang", "Lolo");
+        Dog dog5 = new Dog(35, "Den Nau", "Kiki");
+        Dog dog6 = new Dog(40, "Vang Trang", "Kaka");
+        
+        danhSachDog[0] = dog0;
+        danhSachDog[1] = dog3;
+        danhSachDog[2] = dog2;
+        danhSachDog[3] = dog1;
+        danhSachDog[4] = dog4;
+        danhSachDog[5] = dog5;
+        danhSachDog[6] = dog6;
+
+        danhSachDog[0].inThongTin();   
+        danhSachDog[1].inThongTin();  
+        danhSachDog[2].inThongTin();
+        danhSachDog[3].inThongTin();
+        danhSachDog[4].inThongTin();
+        danhSachDog[5].inThongTin();
+        danhSachDog[6].inThongTin();
+  
     }
     
 }
